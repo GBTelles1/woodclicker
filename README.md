@@ -25,27 +25,30 @@ Pressione as teclas na sequência exibida antes que o tempo acabe.
 Inicie o Jogo: O jogo começa ao pressionar o botão de Start, então uma sequência de letras será exibida na tela.
 <details>
   <summary>Clique aqui para ver uma imagem desse botão</summary>
-  ![Start button](./public/startButton.png)
+  <img src="./public/startButton.png" alt="Start button" />
 </details>
+
 Pressione as Teclas: Pressione as teclas no seu teclado que correspondem às letras na sequência.
 <details>
   <summary>Clique aqui para ver uma imagem da sequência</summary>
-  ![Letter sequence](./public/letterSequence.png)
+  <img src="./public/letterSequence.png" alt="Letter sequence" />
 </details>
 
 Condição de Vitória: Pressione todas as letras na sequência antes que o tempo acabe.
 <details>
   <summary>Clique aqui para ver uma imagem ganhando o jogo</summary>
-  ![Game won](./public/gameWon.png)
+  <img src="./public/gameWon.png" alt="Game won" />
 </details>
+
 Condição de Derrota: Se você pressionar uma tecla errada ou o tempo acabar, o jogo termina e você perde.
 <details>
   <summary>Clique aqui para ver uma imagem errando uma letra, perdendo o jogo</summary>
-  ![Game lost by misspressing](./public/gameLostMisspressing.png)
+  <img src="./public/gameLostMisspressing.png" alt="Game lost by misspressing" />
 </details>
+
 <details>
   <summary>Clique aqui para ver uma imagem esgotando o tempo, perdendo o jogo</summary>
-  ![Game lost by time out](./public/gameLostTimeOut.png)
+  <img src="./public/gameLostTimeOut.png" alt="Game lost by time out" />
 </details>
 
 ## Controles:
@@ -61,7 +64,7 @@ Pressione o botão de Restart para gerar outra sequência de letras e jogar nova
 Esse botão só aparece após iniciar o jogo.
 <details>
   <summary>Veja aqui como esse botão aparece</summary>
-  ![Restart button](./public/restartButton.png)
+  <img src="./public/restartButton.png" alt="Restart button" />
 </details>
 
 ## Dificuldade do Jogo:
@@ -74,12 +77,13 @@ Para alterá-la, use os botões com os nomes das dificuldades.
 A dificuldade atual será exibida abaixo dos botões.
 <details>
   <summary>Clique aqui para ver os botões dos níveis de dificuldade</summary>
-  ![Difficulty level buttons](./public/difficultyButtons.png)
+  <img src="./public/difficultyButtons.png" alt="Difficulty level buttons" />
 </details>
+
 Não é possível mudar o nível de dificuldade durante o jogo.
 <details>
   <summary>Clique aqui para ver como ficam os botões de dificuldade durante o jogo</summary>
-  ![Difficulty buttons disabled](./public/difficultyButtonsDisabled.png)
+  <img src="./public/difficultyButtonsDisabled.png" alt="Difficulty buttons disabled" />
 </details>
 
 ## Salvamento Local:
@@ -87,12 +91,13 @@ Todos os jogos serão salvos localmente quando o jogo terminar.
 Você pode dar um nome de usuário e pressionar o botão "Salvar" ao lado do próprio input para salvar o progresso do jogo com o nome dado.
 <details>
   <summary>Veja aqui um exemplo</summary>
-  ![Username example](./public/usernameExample.png)
+  <img src="./public/usernameExample.png" alt="Username example" />
 </details>
+
 Se nenhum nome for fornecido, o progresso será salvo como "Anonymous User".
 <details>
   <summary>Veja aqui como aparecem os progressos salvos no Ranking, com os top 5 players</summary>
-  ![Ranking](./public/ranking.png)
+  <img src="./public/ranking.png" alt="Ranking" />
 </details>
 Sempre que atualizar a página, o nome de usuário (se fornecido) será resetado.
 
