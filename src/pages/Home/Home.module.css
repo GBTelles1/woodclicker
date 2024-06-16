@@ -1,0 +1,30 @@
+.gamePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+
+  background-color: #8B3C2F;
+  padding: 0.5rem 2rem 2rem;
+  max-width: 45%;
+  border-right: 1.5rem solid #15060B;
+  border-left: 1.5rem solid #15060B;
+}
+
+.pageTitle {
+  color: #FBC75F;
+  font-family: Piedra;
+  font-size: 4rem;
+}
+
+.username {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  padding: 0 1rem;
+}
+
+@media screen and (min-height: 1080px) {
+  .gamePage {
+    min-height: 100vh;
+  }
+}
