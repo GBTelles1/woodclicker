@@ -7,14 +7,13 @@
   background-color: #8B3C2F;
   padding: 0.5rem 2rem 2rem;
   max-width: 45%;
+  min-height: 100vh;
   border-right: 1.5rem solid #15060B;
   border-left: 1.5rem solid #15060B;
 }
 
-.pageTitle {
-  color: #FBC75F;
-  font-family: Piedra;
-  font-size: 4rem;
+.gamePage > img {
+  width: 90%;
 }
 
 .username {
@@ -23,8 +22,8 @@
   padding: 0 1rem;
 }
 
-@media screen and (min-height: 1080px) {
+@media screen and (max-width: 1080px) {
   .gamePage {
-    min-height: 100vh;
+    min-height: auto;
   }
 }
