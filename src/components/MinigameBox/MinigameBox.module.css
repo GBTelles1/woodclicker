@@ -1,0 +1,49 @@
+.minigameBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  width: 85%;
+  font-size: 1.5em;
+  padding: 1rem;
+  background: #B35847;
+  border-radius: 10px;
+}
+
+.minigameBox button {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.gameMessageContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.1rem;
+}
+
+.gameMessageContainer img {
+  max-width: 320px;
+}
+
+@media screen and (max-width: 1024px) {
+  .gameMessageContainer img {
+    max-width: 280px;
+  } 
+}
+
+@media screen and (max-width: 768px) {
+  .minigameBox {
+    font-size: 1em;
+  }
+
+  .minigameBox button {
+    font-size: 1rem;
+  }
+
+  .gameMessageContainer img {
+    max-width: 180px;
+  } 
+}

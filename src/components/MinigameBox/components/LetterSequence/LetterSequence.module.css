@@ -1,0 +1,52 @@
+.sequence {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.letter {
+  width: 4rem;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 600;
+  background-color: #571C20;
+  border-radius: 8px;
+  padding: 0.25rem 0.5rem;
+}
+
+.pressed {
+  background: green;
+}
+
+.misspressed {
+  background: red;
+}
+
+@media screen and (max-width: 1280px) {
+  .sequence {
+    gap: 1rem;
+  }
+
+  .letter {
+    width: 3rem;
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .letter {
+    width: 2rem;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sequence {
+    flex-direction: column;
+  }
+
+  .letter {
+    width: 2rem;
+    font-size: 1.5rem;
+  }
+}
+
+
