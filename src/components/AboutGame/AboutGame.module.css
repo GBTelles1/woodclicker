@@ -1,0 +1,15 @@
+.aboutGame {
+  text-align: center;
+}
+
+.aboutGame > p {
+  font-size: 1.25rem;
+}
+
+.gameInstructions {
+  font-size: 1.375em;
+}
+
+.gameInstructions p {
+  margin: 0.2em;
+}
