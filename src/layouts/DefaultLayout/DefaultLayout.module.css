@@ -1,0 +1,101 @@
+.layout {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-image: url('../../assets/homeBackground.png');
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.layout > img {
+  position: absolute;
+  top: 25%;
+  left: 12rem;
+  width: 300px;
+  z-index: 99;
+}
+
+/* Woodpecker image responsiveness */
+@media screen and (max-width: 1920px) {
+  .layout > img {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .layout > img {
+    left: 12rem;
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .layout > img {
+    left: 10rem;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .layout > img {
+    width: 225px;
+  }
+}
+
+@media screen and (max-width: 1460px) {
+  .layout > img {
+    left: 8rem;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .layout > img {
+    left: 6rem;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .layout > img {
+    left: 4rem;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .layout > img {
+    width: 200px;
+    left: 4rem;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .layout {
+    min-height: auto;
+  }
+
+  .layout > img {
+    width: 180px;
+    left: 4rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .layout > img {
+    width: 150px;
+    left: 4rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .layout > img {
+    left: 2.8rem;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .layout > img {
+    width: 125px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .layout > img {
+    left: 1.2rem;
+  }
+}
