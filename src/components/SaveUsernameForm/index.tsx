@@ -10,7 +10,7 @@ export function SaveUsernameForm() {
   const [usernameFormData, setUsernameFormData] = useState<SaveProgressFormState>({
     username: ''
   });
-  const { setUsername } = useContext(MinigameContext);
+  const { username, setUsername } = useContext(MinigameContext);
 
   function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
     const usernameValue = event.target.value;
@@ -36,6 +36,10 @@ export function SaveUsernameForm() {
         />
         <button type='submit'>Save</button>
       </div>
+
+      {username !== 'Anonymous User' && (
+        <p className={styles.username}>Hi, <b>{username}</b>!</p>
+      )}
     </form>
   )
 }
