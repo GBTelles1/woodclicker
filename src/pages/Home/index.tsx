@@ -1,6 +1,4 @@
-import { useContext } from 'react';
 import { MinigameBox } from '../../components/MinigameBox';
-import { MinigameContext } from '../../contexts/MinigameContext';
 import { AboutGame } from '../../components/AboutGame';
 import { RankingSection } from '../../components/RankingSection';
 import { SaveUsernameForm } from '../../components/SaveUsernameForm';
@@ -9,7 +7,6 @@ import styles from './Home.module.css';
 import woodclickerTitleImg from '../../assets/woodclickerTitle.png';
 
 export function Home() {
-  const { username } = useContext(MinigameContext);
 
   return (
     <main className={styles.gamePage}>
@@ -18,10 +15,6 @@ export function Home() {
         <AboutGame />
 
         <SaveUsernameForm />
-
-        {username !== 'Anonymous User' && (
-          <p className={styles.username}>Hi, <b>{username}</b>!</p>
-        )}
       </div>
       
       <GameDifficultySection />
